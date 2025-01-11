@@ -81,6 +81,12 @@ body {
 	border: none;
 	outline: 1px solid hsl(249, 10%, 26%);
 }
+.error-message {
+	font-weight: bold;
+	text-align: right;
+	color: hsl(0, 100%, 74%);
+	font-size: 12px;
+}
 .submit-button {
 	color: white;
 	text-transform: uppercase;
