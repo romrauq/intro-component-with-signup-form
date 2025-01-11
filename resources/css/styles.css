@@ -1,29 +1,97 @@
+@font-face {
+	font-family: Poppins;
+	src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+	font-family: Poppins Bold;
+	src: url(../fonts/Poppins-Bold.ttf);
+}
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-image: linear-gradient(rgba(255, 122, 122, 0.7), rgb(255, 122, 122, 0.7)),
+		url("../images/bg-intro-desktop.png");
 }
 .main-container {
+	font-family: Poppins;
+	margin: auto;
+	display: flex;
+	font-size: 16px;
+	width: 65vw;
 }
 .left-column {
+	color: white;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+	padding: 0 70px 0 0;
 }
 .heading-text {
+	font-size: 42px;
+	font-family: Poppins Bold;
+	/* width: 80%; */
 }
 .description-text {
+	line-height: 25px;
 }
 .right-column {
+	flex: 1;
 }
 .offer-banner {
+	text-align: center;
+	padding: 15px 0;
+	margin: 0 0 20px 0;
+	background-color: hsl(248, 32%, 49%);
+	border-radius: 10px;
+	box-shadow: 0 10px 3px rgba(0, 0, 0, 0.3);
+}
+.highlighted-offer-text {
+	font-weight: bold;
 }
 .form-body {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	padding: 30px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 10px 3px rgba(0, 0, 0, 0.3);
 }
 .input-field {
+	font-weight: bold;
+	padding: 15px 25px;
+	border: 1px solid hsl(246, 25%, 77%);
+	border-radius: 5px;
+}
+.input-field:focus {
+	border: none;
+	outline: 1px solid hsl(249, 10%, 26%);
+}
+.submit-button {
+	color: white;
+	text-transform: uppercase;
+	padding: 15px;
+	background-color: hsl(154, 59%, 51%);
+	border: none;
+	border-radius: 5px;
 }
 .disclaimer-text {
+	font-size: 12px;
+	text-align: center;
 }
 .highlighted-text {
+	color: hsl(0, 100%, 74%);
+	font-weight: bold;
 }
 .attribution {
 	font-size: 11px;
