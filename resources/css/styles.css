@@ -85,6 +85,12 @@ body {
 	background-color: hsl(154, 59%, 51%);
 	border: none;
 	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.submit-button:hover {
+	background-color: hsl(154, 84%, 48%);
+	box-shadow: 0 3px 3px hsl(154, 59%, 51%);
 }
 .disclaimer-text {
 	font-size: 12px;
