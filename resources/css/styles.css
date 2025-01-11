@@ -73,6 +73,9 @@ body {
 	padding: 15px 25px;
 	border: 1px solid hsl(246, 25%, 77%);
 	border-radius: 5px;
+	background-image: url("../images/icon-error.svg");
+	background-repeat: no-repeat;
+	background-position: calc(100% - 20px);
 }
 .input-field:focus {
 	border: none;
