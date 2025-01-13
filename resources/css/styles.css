@@ -2,15 +2,18 @@
 	font-family: Poppins;
 	src: url("../fonts/Poppins-Regular.ttf");
 }
+
 @font-face {
 	font-family: Poppins Bold;
 	src: url(../fonts/Poppins-Bold.ttf);
 }
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
+
 body {
 	height: 100vh;
 	display: flex;
@@ -20,6 +23,7 @@ body {
 	background: url("../images/bg-intro-desktop.png");
 	background-color: hsl(0, 100%, 74%);
 }
+
 .main-container {
 	font-family: Poppins;
 	margin: auto;
@@ -27,6 +31,7 @@ body {
 	font-size: 16px;
 	width: 65vw;
 }
+
 .left-column {
 	color: white;
 	flex: 1;
@@ -36,17 +41,21 @@ body {
 	gap: 20px;
 	padding: 0 70px 0 0;
 }
+
 .heading-text {
 	font-size: 42px;
 	font-family: Poppins Bold;
 	/* width: 80%; */
 }
+
 .description-text {
 	line-height: 25px;
 }
+
 .right-column {
 	flex: 1;
 }
+
 .offer-banner {
 	color: white;
 	text-align: center;
@@ -56,9 +65,11 @@ body {
 	border-radius: 10px;
 	box-shadow: 0 10px 3px rgba(0, 0, 0, 0.3);
 }
+
 .highlighted-offer-text {
 	font-weight: bold;
 }
+
 .form-body {
 	display: flex;
 	flex-direction: column;
@@ -68,6 +79,7 @@ body {
 	border-radius: 10px;
 	box-shadow: 0 10px 3px rgba(0, 0, 0, 0.3);
 }
+
 .input-field {
 	font-weight: bold;
 	padding: 15px 25px;
@@ -77,16 +89,19 @@ body {
 	background-repeat: no-repeat;
 	background-position: calc(100% - 20px);
 }
+
 .input-field:focus {
 	border: none;
 	outline: 1px solid hsl(249, 10%, 26%);
 }
+
 .error-message {
 	font-weight: bold;
 	text-align: right;
 	color: hsl(0, 100%, 74%);
 	font-size: 12px;
 }
+
 .submit-button {
 	color: white;
 	text-transform: uppercase;
@@ -97,29 +112,37 @@ body {
 	cursor: pointer;
 	transition: 0.4s;
 }
+
 .submit-button:hover {
 	background-color: hsl(154, 84%, 48%);
 	box-shadow: 0 3px 3px hsl(154, 59%, 51%);
 }
+
 .disclaimer-text {
 	font-size: 12px;
 	text-align: center;
 }
+
 .highlighted-text {
 	color: hsl(0, 100%, 74%);
 	font-weight: bold;
 }
+
 .attribution {
+	color: hsl(248, 32%, 49%);
 	font-size: 11px;
 	text-align: center;
 }
+
 .attribution a {
 	color: white;
 	text-decoration: none;
 }
+
 .attribution a:hover {
 	text-decoration: underline;
 }
+
 @media (max-width: 475px) {
 	.main-container {
 		display: flex;
@@ -127,23 +150,28 @@ body {
 		width: 90vw;
 		margin: 30px 0 auto 0;
 	}
+
 	.left-column {
 		text-align: center;
 		padding: 0;
 	}
+
 	.heading-text {
 		font-size: 28px;
 		line-height: 38px;
 	}
+
 	.description-text {
 		line-height: 25px;
 		margin: 0 0 60px 0;
 	}
+
 	.offer-banner {
 		text-align: center;
 		padding: 15px 50px;
 		margin: 0 0 20px 0;
 	}
+
 	.form-body {
 		margin: 0 0 50px 0;
 	}
